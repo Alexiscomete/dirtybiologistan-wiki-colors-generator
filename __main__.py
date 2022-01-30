@@ -14,7 +14,7 @@ with open("css_template.css", "r") as f:
 # Add to output the template with each page value
 output = ""
 for region in colors:
-    # Correctly format the page name, space and / become _
+    # Correctly format the page name; space and / become _
     page_name = region.replace(" ", "_").replace("'", "_").replace("/", "_").strip("_")
     output += css_template.replace("PAGE", page_name).replace("COLOR", colors[region])
     # Do this for each language
