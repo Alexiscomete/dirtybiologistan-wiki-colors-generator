@@ -1,9 +1,9 @@
 .page-PAGE {
-    --theme-link-color:COLOR;
-    --theme-link-color--hover:COLOR;
+    --theme-link-color: COLOR;
+    --theme-link-color--hover: COLOR;
 }
 
 .page-PAGE .portable-infobox {
-    --pi-secondary-background:COLOR;
-    --pi-border-color:COLOR;
+    --pi-secondary-background: COLOR;
+    --pi-border-color: COLOR;
 }
