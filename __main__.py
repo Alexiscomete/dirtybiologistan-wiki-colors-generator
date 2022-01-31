@@ -21,9 +21,6 @@ for region in colors:
     for prefix in ["En", "Es", "Db", "Eo"]:
         output += css_template.replace("PAGE", prefix+"_"+page_name).replace("COLOR", colors[region])
 
-# Minify output
-output = output.replace("\n", "").replace(" ", "")
-
 # Write output
 with open("output.txt", "w", encoding="utf-8") as f:
     f.write(output)
