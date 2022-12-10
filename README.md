@@ -1,9 +1,5 @@
 # Dirtybiologistan wiki colors generator
 
-<p align="center">
-<a href=".readme/README.fr.md">fr</a>
-</p>
-
 This script aims to generate a big CSS line to put in https://dirtybiologistan.fandom.com/fr/wiki/MediaWiki:Common.css so that the pages have custom accent colors.
 
 ## Usage
